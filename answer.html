@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ sl[title] }}</title>
+</head>
+<body>
+<h1>Миссия Колонизация Марса</h1>
+<h4>И на Марсе будут яблони цвести!</h4>
+<div>{{ sl[surname] }}</div>
+<div>{{ sl[name] }}</div>
+<div>{{ sl[education] }}</div>
+<div>{{ sl[profession] }}</div>
+<div>{{ sl[sex] }}</div>
+<div>{{ sl[motivation] }}</div>
+<div>{{ sl[ready] }}</div>
+{% extends "auto-answer.html" %}
+{% block content %}
+<div>{{ sl[surname] }}</div>
+<div>{{ sl[name] }}</div>
+<div>{{ sl[education] }}</div>
+<div>{{ sl[profession] }}</div>
+<div>{{ sl[sex] }}</div>
+<div>{{ sl[motivation] }}</div>
+<div>{{ sl[ready] }}</div>
+{% endblock %}
+</body>
+</html>
